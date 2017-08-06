@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFoAkAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EAB4QAQEBAAIDAQEBAAAAAAAAAAABETFBAiFhcVES/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APEaaAC+0igKKAKYCDWGAz7PbVQGSqgICAEoQCgALgoLFwiwFMWKCYZ8amLZ2DFjOOmM2AxYjdYoJYy1UBCABeQWAYsIsBfFqJGp9BZG8Z/GoCyGLNgDGVntu32ln8Bz8ma3WaDNZxpKDNJytScgdh2A0rMXQbjUrDUoOnjV1iNQG/hwz/otArNq3yZoJaytrNBKzWmf0BItqQAAFmKzF0GtalYWA3K1rnqg3prGmg3azb6S1AXWaIAytQAgAUKoIFUFgs4ADUXoDTSclA0OgERpKDIqABVgP//Z) center ;
+  /*background-size: cover;*/
+}
+
+
+
+.key {
+    border: .1rem solid white;
+    width: 7em;
+    height: 5em;
+    text-align: center;
+    /* padding: 1rem; */
+    margin: 1rem;
+    display: inline-grid;
+    background: rgba(0,0,0,0.4);
+    transition: all .07s ease;
+    cursor: pointer;
+}
+
+.keys {
+    /*background: url(http://www.guoguiyan.com/data/out/141/69938038-orchestra-wallpapers.jpg) center;*/
+    display: inherit;
+    text-align: -webkit-center;
+    margin-top: 15em;
+    min-height: 10em;
+}
+
+.sound {
+    font-size: 1.1em;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+
+kbd {
+    color: silver;
+    font-size: -webkit-xxx-large;
+}
+
+.play {
+    transform: scale(0.9);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
